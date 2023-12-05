@@ -6,8 +6,8 @@ const Footer = () => {
         <footer className={`w-full h-[300px] sm:h-[144px] flex justify-center bg-[#1c1c1c]`}>
             <div className={`max-w-[1920px] w-full flex gap-10 sm:gap-0 justify-center sm:justify-between items-center flex-col sm:flex-row mx-10`}>
                 <div className={`flex flex-col items-center sm:items-start`}>
-                    <h5 className={`text-white text-[13px] leading-[18px] pb-px font-semibold`}>+38 (093) 745 42 21</h5>
-                    <h5 className={`text-white text-[11px] font-semibold`}>vshkolnyi.actor@gmail.com</h5>
+                    <h5 className={`text-white text-[13px] leading-[18px] pb-px font-semibold`}>+38 (063) 398 82 75</h5>
+                    <h5 className={`text-white text-[11px] font-semibold`}>ivan.goncharofff@gmail.com</h5>
                 </div>
                 <div className={`flex gap-2`}>
                     <div className={`w-[31px] h-[31px] flex justify-center items-center bg-[#707070] rounded-full cursor-pointer hover:bg-white`}>

@@ -6,7 +6,7 @@ import Inline from "yet-another-react-lightbox/plugins/inline";
 import slides from "@/data/slides";
 import "yet-another-react-lightbox/styles.css";
 
-export default function Gallery() {
+export default function Gallery({gallery}) {
     const [open, setOpen] = React.useState(false);
     const [index, setIndex] = React.useState(0);
 
@@ -15,11 +15,12 @@ export default function Gallery() {
     const updateIndex = ({ index: current }) =>
         setIndex(current);
 
+
     return (
         <>
             <Lightbox
                 index={index}
-                slides={slides}
+                slides={gallery}
                 plugins={[Inline]}
                 on={{
                     view: updateIndex,
@@ -45,7 +46,7 @@ export default function Gallery() {
                 open={open}
                 close={toggleOpen(false)}
                 index={index}
-                slides={slides}
+                slides={gallery}
                 on={{ view: updateIndex }}
                 animation={{ fade: 0 }}
                 controller={{ closeOnPullDown: true, closeOnBackdropClick: true }}
