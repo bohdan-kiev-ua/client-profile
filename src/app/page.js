@@ -40,19 +40,19 @@ const secondGallery = [
     },
     {
         height: '100%',
-        src: "/images/photos/IMG_6651.JPG",
+        src: "/images/photos/IMG_6651.jpg",
         width: '100%',
     },
     {
         height: '100%',
-        src: "/images/photos/IMG_6673.JPG",
+        src: "/images/photos/IMG_6673.jpg",
         width: '100%',
     },
 ];
 const thirdGallery = [
     {
         height: '100%',
-        src: "/images/photos/IMG_6692.JPG",
+        src: "/images/photos/IMG_6692.jpg",
         width: '100%',
     },
     {
